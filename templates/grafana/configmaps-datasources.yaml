@@ -68,12 +68,12 @@ data:
     - name: CloudWatch
       type: cloudwatch
       access: proxy
-      url: {{ .Values.grafana.cloudwatch.url }}
+      url: {{ .Values.grafana.sidecar.datasources.cloudwatch.url }}
      
 
     # Add InfluxDB datasource
     - name: InfluxDB
       type: influxdb
       access: proxy
-      url: {{ .Values.grafana.influxdb.url }}
+      url: {{ .Values.grafana.sidecar.datasources.influxdb.url }}
     
