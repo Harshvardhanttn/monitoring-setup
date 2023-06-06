@@ -1,0 +1,2 @@
+grafana.sidecar.datasources.cloudwatch.url=harsh
+grafana.sidecar.datasources.influxdb.url=sahil
