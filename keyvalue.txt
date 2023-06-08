@@ -1,2 +1,3 @@
-grafana.sidecar.datasources.cloudwatch.url=harsh
-grafana.sidecar.datasources.influxdb.url=sahil
+grafana.sidecar.datasources.cloudwatch.url=1.2.3.4
+grafana.sidecar.datasources.influxdb.url=142.20.36.56
+grafana.sidecar.datasources.elasticsearch.url=www.abc.com
