@@ -77,3 +77,8 @@ data:
       access: proxy
       url: {{ $.Values.grafana.sidecar.datasources.influxdb.url }}
     
+    # Add InfluxDB datasource
+    - name: ElasticSearch
+      type: elasticsearch
+      access: proxy
+      url: {{ $.Values.grafana.sidecar.datasources.elasticsearch.url }}
